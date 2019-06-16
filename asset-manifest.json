@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tyur/static/css/main.ee6a969b.chunk.css",
+    "main.js": "/tyur/static/js/main.be331a2e.chunk.js",
+    "main.js.map": "/tyur/static/js/main.be331a2e.chunk.js.map",
+    "runtime~main.js": "/tyur/static/js/runtime~main.ed0c60fc.js",
+    "runtime~main.js.map": "/tyur/static/js/runtime~main.ed0c60fc.js.map",
+    "static/js/2.47ad60e0.chunk.js": "/tyur/static/js/2.47ad60e0.chunk.js",
+    "static/js/2.47ad60e0.chunk.js.map": "/tyur/static/js/2.47ad60e0.chunk.js.map",
+    "index.html": "/tyur/index.html",
+    "precache-manifest.42c70b7c8a2b4aea0afdaef1842d3012.js": "/tyur/precache-manifest.42c70b7c8a2b4aea0afdaef1842d3012.js",
+    "service-worker.js": "/tyur/service-worker.js",
+    "static/css/main.ee6a969b.chunk.css.map": "/tyur/static/css/main.ee6a969b.chunk.css.map"
+  }
+}
