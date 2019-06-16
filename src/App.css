@@ -1,0 +1,31 @@
+table {
+  border: 1px solid black;
+  width: 100%;
+}
+th {
+  height: 20px;
+  background-color: blue;
+  color: white;
+}
+
+th, td {
+  border-bottom: 1px solid #ddd;
+}
+
+input{
+  width: 200px;
+  transition: .3s ease;
+  border: none;
+  border-bottom: 1px solid blue;
+  margin: auto;
+  display: block;
+  outline: none;
+
+}
+
+::placeholder {
+
+  color: rgba(white, .5);
+  cursor: text;
+  transition: .25s ease;
+}
