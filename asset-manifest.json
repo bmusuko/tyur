@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/tyur/static/css/main.3ce416d5.chunk.css",
-    "main.js": "/tyur/static/js/main.b9b996ea.chunk.js",
-    "main.js.map": "/tyur/static/js/main.b9b996ea.chunk.js.map",
+    "main.js": "/tyur/static/js/main.2c95a96d.chunk.js",
+    "main.js.map": "/tyur/static/js/main.2c95a96d.chunk.js.map",
     "runtime~main.js": "/tyur/static/js/runtime~main.ed0c60fc.js",
     "runtime~main.js.map": "/tyur/static/js/runtime~main.ed0c60fc.js.map",
     "static/js/2.57fce5cc.chunk.js": "/tyur/static/js/2.57fce5cc.chunk.js",
     "static/js/2.57fce5cc.chunk.js.map": "/tyur/static/js/2.57fce5cc.chunk.js.map",
     "index.html": "/tyur/index.html",
-    "precache-manifest.c8dc95ec2df82d7e85c9493bdbfedf2c.js": "/tyur/precache-manifest.c8dc95ec2df82d7e85c9493bdbfedf2c.js",
+    "precache-manifest.cfbe068c271ee500565794a8a13efcfe.js": "/tyur/precache-manifest.cfbe068c271ee500565794a8a13efcfe.js",
     "service-worker.js": "/tyur/service-worker.js",
     "static/css/main.3ce416d5.chunk.css.map": "/tyur/static/css/main.3ce416d5.chunk.css.map"
   }
