@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2584b3570e52dafa148650cd95b65ea1",
+    "revision": "50d07b7ed9015b5e267a41cc08ebfbd8",
     "url": "/tyur/index.html"
   },
   {
-    "revision": "df67594a690f3838c03b",
+    "revision": "47d9ee49b266420b8a59",
     "url": "/tyur/static/css/main.3ce416d5.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tyur/static/js/2.57fce5cc.chunk.js"
   },
   {
-    "revision": "df67594a690f3838c03b",
-    "url": "/tyur/static/js/main.2c95a96d.chunk.js"
+    "revision": "47d9ee49b266420b8a59",
+    "url": "/tyur/static/js/main.9e7a82cd.chunk.js"
   },
   {
     "revision": "3359dc9fd5a85d56953c",
