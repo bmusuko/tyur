@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ba5df5ee2120d77d23a8004c9d1a7554",
+    "revision": "2584b3570e52dafa148650cd95b65ea1",
     "url": "/tyur/index.html"
   },
   {
