@@ -1,10 +1,11 @@
 table {
   border: 1px solid black;
   width: 100%;
+  font:Georgia;
 }
 th {
   height: 20px;
-  background-color: blue;
+  background-color: navy;
   color: white;
 }
 
@@ -28,4 +29,30 @@ input{
   color: rgba(white, .5);
   cursor: text;
   transition: .25s ease;
+}
+
+
+li {
+  display: inline-block;
+  margin: 10px;
+}
+
+ul {
+  position: absolute;
+  font-size: 20px;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.ableNav:hover{
+  cursor: pointer;
+}
+
+.ableNav{
+  color: blue;
+}
+
+.App{
+  
 }
