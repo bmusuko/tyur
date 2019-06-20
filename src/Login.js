@@ -27,7 +27,7 @@ export class Login extends React.Component{
 		})
 		axios.post("https://api.stya.net/nim/login",body,headers) 
 		.then(response => {
-			alert(response.data.token);
+			alert(response.data.status);
 			if(response.data.status === "OK"){
 				console.log("success");
 				this.props.history.push('/search',{ token: response.data.token, username:this.state.username})

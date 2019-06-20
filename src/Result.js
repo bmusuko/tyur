@@ -82,9 +82,6 @@ export class Result extends React.Component{
 		if(Object.keys(this.state.data).length > 0){
 			return (
 			<div>
-		    	<h1>{this.state.availNext}</h1>
-		    	<h1>{true}</h1>
-		    	<h1>{false}</h1>
 				<table>
 		        <thead>
 		          <th>nama</th>

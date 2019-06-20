@@ -7,7 +7,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 const routing = (
-  <Router>
+  <Router basename={process.env.PUBLIC_URL}>
     <div>
       <Route exact path="/" component={Login} />
       <Route exact path="/search" component={App} />

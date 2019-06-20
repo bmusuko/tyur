@@ -29,3 +29,11 @@
 	background-color: purple;
 	color: white;
 }
+
+.SignUpBtn{
+	width: 100%;
+	border-radius: 5px;
+	background-color: purple;
+	color: white;
+	margin-bottom: 40px;
+}

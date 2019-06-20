@@ -1,68 +1,50 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Tyur NIM Finder
 
-## Available Scripts
+Tyur Nim Finder adalah Aplikasi web yang berbasiskan react javascript yang dibuat oleh **Bram Musuko Panjaitan / 13517089** untuk memenuhi tugas seleksi LabPro 2
 
-In the project directory, you can run:
+## Cara Menjalankan Aplikasi
 
-### `npm start`
++ Pergi ke website [Tyur Nim Finder](https://bmusuko.github.io/tyur)
++ Jika anda belum mempunyai akun, maka lakukan register terlebih dahulu
++ Login
++ Lakukan pencarian dengan memasukkan nama atau nim
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Cara Menggunakan Aplikasi
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+```
+contoh query :
+"budi" atau "16817"
+```
 
-### `npm test`
+Login page
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Login Page](../master/img/login.png)
 
-### `npm run build`
+Sign Up Page
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Sign Up Page](../master/img/signup.png)
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+Pencarian dengan nama
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Pencarian dengan nama](../master/img/pencariannama.png)
 
-### `npm run eject`
+Pencarian dengan nim
+![Pencarian dengan nim](../master/img/pencariannim.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Desain Aplikasi
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Desain aplikasi yang digunakan adalah, index.js adalah bagian yang mengatur router dari aplikasi, terdapat tiga router, "/" yang berisi login, "/register" yang berisi sign up, dan "/search" yang berisi nim finder.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Kelas login dapat menuju kelas sign up dan sebaliknya, kelas login juga dapat ke kelas App dengan mengirimkan state token, kelas App akan menerima inputan query dan meneruskan ke kelas result untuk dihubungkan ke API yang telah disediakan dan mendapatkan hasil dari query. 
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Kelas result akan memanggil kelas Navigation setelah mengirimkan informasi halaman dan ketersiadan next page, dan terakhir kelas Navigation akan me-render page navigation. Jika state kelas Navigation diubah, maka kelas Result akan diubah juga state-nya
 
-## Learn More
+## Library yang digunakan
+1. React -> membuat aplikasi berbasis react
+1. ReactDOM -> merender aplikasi
+1. Axios -> untuk menghubungkan ke API yang disediakan
+1. qs -> untuk mengubah body saat memanggil API yang disediakan
+1. BrowserRouter -> membuat router pada aplikasi
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+##Review untuk desain API yang ada
+kelas App dapat digabungkan dengan kelas result, sehingga kelas yang digunakan lebih sedikit

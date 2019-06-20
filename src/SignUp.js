@@ -24,9 +24,12 @@ class SignUp extends React.Component{
 		})
 		axios.post("https://api.stya.net/nim/register",body,headers) 
 		.then(res => {
-			console.log(res.data.status);
+			alert(res.data.status);
+			if(res.data.code === 0){
+				(this.props.history.push("/"));	
+			}
 			
-		}).then(this.props.history.push("/"))
+		})
 	}
 
 	handleUsername(e){
@@ -41,14 +44,14 @@ class SignUp extends React.Component{
 	render(){
 		return(
 			<div className="container">
-				<form>
+				<div>
 					<span className="loginTitle"> Sign Up </span>
 					<div>
 					<input className="input" type ="text" name="username" placeholder="username" onChange={this.handleUsername} required />
 					<input className="input" type ="password" name="password" placeholder="password" onChange={this.handlePassword} required/>
-					<button className="loginBtn" onClick={this.handleClick} > Sign Up </button>
+					<button className="SignUpBtn" onClick={this.handleClick} > Sign Up </button>
 					</div>
-				</form>
+				</div>
 			</div>)
 
 	}
