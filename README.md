@@ -46,5 +46,5 @@ Kelas result akan memanggil kelas Navigation setelah mengirimkan informasi halam
 1. qs -> untuk mengubah body saat memanggil API yang disediakan
 1. BrowserRouter -> membuat router pada aplikasi
 
-##Review untuk desain API yang ada
+## Review untuk desain API yang ada
 kelas App dapat digabungkan dengan kelas result, sehingga kelas yang digunakan lebih sedikit
