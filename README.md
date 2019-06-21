@@ -47,4 +47,4 @@ Kelas result akan memanggil kelas Navigation setelah mengirimkan informasi halam
 1. BrowserRouter -> membuat router pada aplikasi
 
 ## Review untuk desain API yang ada
-kelas App dapat digabungkan dengan kelas result, sehingga kelas yang digunakan lebih sedikit
+Jumlah data seharusnya diberikan saat melakukan GET request 
